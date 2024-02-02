@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.Menu_bar{
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    
+}
+.logo{
+    color: var(--color-white);
+    font-size: 30px;
+    padding: 150px;
+}
+.Menu_bar ul {
+    list-style: none;
+    display: flex;
+    padding-right: 200px;
+}
+.Menu_bar ul li {
+    padding: 10px 30px;
+}
+.Menu_bar ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 0.3s;
+    
+}
+
+.Menu_bar ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.Menu_bar ul li:hover::after{
+    width: 100%;
+
+}
+
+
+body{
+    background-image: url(bacck.jpg);
+    background-size: cover;
+}
+.adjust{
+    padding: 300px;
+}
+.address{
+    color: red;
+}
+.mind{
+    color: white;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+
+}
+.tct{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Menu_bar img{
+    padding: 140px;
+}
+
